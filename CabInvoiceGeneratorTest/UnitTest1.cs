@@ -4,7 +4,7 @@ namespace CabInvoiceGeneratorTest
     [TestClass]
     public class UnitTest1
     {
-        InvoiceGenerator invoiceGenerator;
+        InvoiceGenerator invoiceGenerator = null;
 
         [TestMethod]
         public void GivenDistanceandTimeShouldReturnTotalFare()
